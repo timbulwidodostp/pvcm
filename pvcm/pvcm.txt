@@ -2,8 +2,8 @@
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
 # Variable Coefficients Models for Panel Data Use pvcm (plm) With (In) R Software
-install.packages("olsrr")
-library("olsrr")
+install.packages("plm")
+library("plm")
 # Estimation Variable Coefficients Models for Panel Data Use pvcm (plm) With (In) R Software
 pvcm = read.csv("https://raw.githubusercontent.com/timbulwidodostp/pvcm/main/pvcm/pvcm.csv", sep = ";")
 pvcm_data <- as.data.frame(pvcm)
